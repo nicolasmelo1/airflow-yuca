@@ -34,11 +34,12 @@ $ docker-compose up
 ```
  
 Passo a passo:
-    - Buildamos a aplicação e criamos nossos containers docker
-    - Criamos um usuário para que possamos nos cadastrar com na UI, o email desse usuário é `admin@admin.com` e a senha é `admin`
-    - Efetivamente rodamos o container docker
-    - Acesse: localhost:8080 no seu browser, se logue com o e mail e senha do novo usuário
-    - Clique em Dags no menu superior, e ative a dag chamada `teste_yuca_dag` clicando no Switch lateral esquerdo da interface.
+
+- Buildamos a aplicação e criamos nossos containers docker
+- Criamos um usuário para que possamos nos cadastrar com na UI, o email desse usuário é `admin@admin.com` e a senha é `admin`
+- Efetivamente rodamos o container docker
+- Acesse: localhost:8080 no seu browser, se logue com o e mail e senha do novo usuário
+- Clique em Dags no menu superior, e ative a dag chamada `teste_yuca_dag` clicando no Switch lateral esquerdo da interface.
 
 ##### Local
 Para rodar a aplicação localmente, primeiro crie uma venv e ative ela com os comandos ([no windows é um pouco diferente](https://docs.python.org/pt-br/3/library/venv.html))
